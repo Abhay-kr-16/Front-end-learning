@@ -1,13 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   color: #444;
+  border-top: 10px solid #1098ad;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 4px solid #1098ad;
+  border-bottom: 4px solid #1098ad;
+  padding: 50px 0;
+}
+article {
+  margin-bottom: 60px;
 }
 .author {
   font-size: 18px;
   font-style: italic;
+}
+.post-header {
+  margin-bottom: 30px;
 }
 h1 {
   font-size: 26px;
@@ -19,10 +43,17 @@ h1 {
 h2 {
   font-size: 40px;
   color: #1098ad;
+  margin-bottom: 30px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
 }
 h3 {
   font-size: 30px;
   color: #1098ad;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 h4 {
   font-size: 20px;
@@ -33,22 +64,26 @@ p {
   font-size: 22px;
   line-height: 1.5;
   color: #444444;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 li {
   font-size: 22px;
   color: #444444;
+  margin-bottom: 10px;
 }
 li:first-child {
   font-weight: bold;
 }
 li:last-child {
   font-style: italic;
+  margin-bottom: 0;
 }
-aside {
-  background-color: #f7f7f7;
-  border-top: 4px solid #1098ad;
-  border-bottom: 4px solid #1098ad;
-}
+
 a:link,
 a:visited {
   text-decoration: none;

@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.container {
+  width: 825px;
+  border: 4px solid #000;
+  margin: 50px auto;
+}
+.product-title {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px 0;
+}
+.shoes-img {
+  width: 250px;
+  height: 250px;
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+.free-shipping {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 20px;
+}
+.more-info:link,
+.more-info:visited {
+  display: inline-block;
+  margin-bottom: 34px;
+  color: #000;
+}
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+.detail-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.product-list {
+  margin-left: 20px;
+  list-style: square;
+}
+.product-list li {
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 15px 0;
+  border-top: 4px solid #000;
+  cursor: pointer;
+}
+.add-btn:hover {
+  background-color: #fff;
+  color: #000;
+}

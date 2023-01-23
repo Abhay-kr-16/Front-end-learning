@@ -7,6 +7,7 @@ body {
   font-family: sans-serif;
   color: #444;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 .container {
   width: 800px;
@@ -40,10 +41,26 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
 }
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
 h2 {
   font-size: 40px;
   color: #1098ad;
   margin-bottom: 30px;
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
+  color: #444;
 }
 .post-img {
   width: 100%;
@@ -96,4 +113,12 @@ a:active {
 }
 footer p {
   font-size: 16px;
+}
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
